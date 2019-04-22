@@ -1,4 +1,5 @@
-#COnversion from a png image to a jpg one.
+#Conversion from a png image to a jpg one.
+#You need to install pillow by pip install pillow
 
 from PIL import Image
 im = Image.open("path\image.png")
